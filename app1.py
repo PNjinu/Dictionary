@@ -1,3 +1,4 @@
+"""The original script"""
 import json
 from difflib import get_close_matches
 
@@ -33,3 +34,6 @@ if type(output) == list:
 		print(item)
 else:
 	print(output)
+
+if __name__ == "__main__":
+	pass
